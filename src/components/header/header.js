@@ -1,12 +1,12 @@
 export default {
-    name:'head-nav',
+    name:'header',
     data(){
         return {
 
         }
     },
     mounted(){
-  
+        console.log(1)
     },
     methods:{
         /**
