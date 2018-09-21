@@ -1,6 +1,6 @@
 <template>
     <div class="head-nav">
-        header
+        header{{msg}}
     </div> 
 </template>
 
@@ -11,11 +11,11 @@
         name: 'headerNav',
          data () {
             return {
-              msg: 'Welcome to Your Vue.js'
+              msg: 'Welcome '
             }
           },
         mounted(){
-        console.log('header__mounted')
+        console.log('header__mountedd d')
         },
         created(){
            
