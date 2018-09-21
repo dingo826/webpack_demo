@@ -6,6 +6,8 @@
 
 
 <script>
+import Util from './util.js';
+
     export default {
      
         name: 'headerNav',
@@ -14,8 +16,12 @@
               msg: 'Welcome '
             }
           },
-        mounted(){
-        console.log('header__mountedd d')
+        mounted(){  
+      
+       
+        },
+        methods:{
+
         },
         created(){
            
