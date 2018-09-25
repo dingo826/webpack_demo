@@ -1,0 +1,10 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false, // 关闭 babel 的模块化策略，交由 webpack 来处理
+      "targets": {
+        "browsers": [">1%", "last 2 versions", "not ie <= 8"]
+      }
+    }]
+  ]
+}

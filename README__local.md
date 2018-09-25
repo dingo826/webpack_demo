@@ -88,11 +88,13 @@ new webpack.NamedModulesPlugin(), //用于启动HMR时可以显示模块的相�
 new webpack.HotModuleReplacementPlugin(),   //hot module replacement 启动模块热替换的插件
 
 tree shaking  / 摇晃树
+webpack 自带 / es6 的rollUp
+
 ??测试存在问题
 
 ?? 测试 前端测试
 
-?? 生产环境构建
+生产环境构建
    ---  线上环境    uglifyjs-webpack-plugin(压缩)
    线上与开发环境区别： 压缩，devtool: 'inline-source-map'
 
@@ -106,3 +108,7 @@ webpack要求：基础框架，不同开发环境, 性能优化
 组件内容：左侧，右侧，头部，列表 。增删改
 ?? 头部 不同布局，同个内容的实现
 ?? 接口调用死的
+
+webpack性能优化
+1、代码压缩  摇晃树
+2、使用别名做重定向

@@ -5,6 +5,9 @@ var Util = {   
     },
     a: function(){
         alert(1)
-    }   
+    },
+    test: function(){
+        alert("asdfasdf")
+    }
 }                        
 module.exports = Util;

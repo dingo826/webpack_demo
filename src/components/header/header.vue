@@ -6,6 +6,7 @@
 
 
 <script>
+import base from "./header.css";
 import Util from './util.js';
 
     export default {

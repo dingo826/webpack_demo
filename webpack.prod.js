@@ -1,8 +1,12 @@
+const path = require('path');
 const merge = require('webpack-merge');
-const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const WebpackDeepScopeAnalysisPlugin = require('webpack-deep-scope-plugin').default;
+
 const common = require('./webpack.common.js');
 module.exports = merge(common, {
-  plugins: [    
-    new UglifyJSPlugin()
+    mode: 'production',
+  plugins: [ 
+    new WebpackDeepScopeAnalysisPlugin()
   ]
 });
+
